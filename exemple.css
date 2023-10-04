@@ -25,15 +25,7 @@ a{
     text-decoration: none;
     color: black;
 }
-/* .main_container{
-    border:2px dashed blue;
 
-     position: absolute; 
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px; 
-} */
 html{
     scrollbar-width: thin;
     scrollbar-color: rgba(0,0,0,0.4) rgba(0,0,0,0);
@@ -72,11 +64,7 @@ html{
     
 }
 
-/* .container_row::after{
-    content:"";
-    display: table;
-    clear: both;
-} */
+
 
 .logo{
     width: 200px;
@@ -178,30 +166,24 @@ html{
 /* --------------------------------------------------------------------------------------------------------------------- */
 .container_service{
     height: 65em;
-    /* border: 2px dashed black; */
     text-align: center;
 }
 
 .containerService{
     margin: 5rem auto ;
-    /* padding: 10px auto; */
-
     width: 70%;
-    /* border: 2px dashed blue; */
 }
 
 .cont_serv_row{
     width:100%;
     margin: 0px auto;
-    
-    /* border: ; */
 }
 
 .titleServ{
     
     text-transform: uppercase;
     height: 10em;
-    /* border: dashed orange; */
+    border: dashed orange;
 }
 
 .titleServ h1{
