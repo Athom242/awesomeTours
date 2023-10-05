@@ -36,7 +36,6 @@ html{
 .container{
     width: 100%;
     height: 65vh;
-    /* border: 1px solid black; */
     background: linear-gradient(to left,rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)),url(WebsiteFileTest/Media/parallax-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -49,7 +48,6 @@ html{
 .header_container{
     width: 100%;
     height: 6.5rem;
-    /* background: linear-gradient(to left,rgba(0,0,0,0.8),rgba(0,0,0,0.8)); */
     
 }
 
@@ -57,7 +55,6 @@ html{
     width: 75%;
     height: 100%;
     margin: 0px auto;
-    /* border:5px dashed black; */
     display: flex;
     flex-wrap: wrap;
     
@@ -69,14 +66,10 @@ html{
 .logo{
     width: 200px;
     height: 100%;
-    /* border: 2px dashed greenyellow; */
-    /* float: left; */
 }
 .navigation{
     width: 100%;
     height: 50%;
-    /* border: 2px solid blueviolet; */
-    /* float: right; */
     flex: 2;
     margin: 2% auto;
     display: flex;
@@ -86,35 +79,23 @@ html{
 .nav_bar{
     display: flex;
     width: 60%;
-    /* height: 100%; */
     float: right;
-    /* border: 1px solid white; */
     justify-content: right;
 }
 
 .nav_bar li{
-    /* width: 100%;
-    height: 100%; */
-    /* border: 1px solid red; */
     display: inline-block;
-    /* display: flex; */
     
 }
 
 
 .nav_bar a{
-    /* width: 100%;
-    height: 100%; */
     padding: 5px 13px;
-    /* margin-left: .25rem; */
-    /* border: 2px dashed black; */
     text-align: center;
     font-size: 16px;
     color: white;
     font-weight:600;
     text-transform: capitalize;
-    /* flex-wrap: wrap;
-    flex: 3; */
 }
 
 .nav_bar a:hover{
@@ -127,7 +108,6 @@ html{
 .presentation_service{
     width: 60%;
     margin: 9rem auto;
-    /* border: 1px solid black; */
     text-align: center;
     color: rgba(245, 245, 245, 0.945);
     text-transform: uppercase;
@@ -183,12 +163,10 @@ html{
     
     text-transform: uppercase;
     height: 10em;
-    border: dashed orange;
 }
 
 .titleServ h1{
     font-size: 45px;
-    /* border: 1px solid black; */
     font-weight: bold;
     color: rgba(26, 25, 25, 0.87);
 }
@@ -210,26 +188,20 @@ html{
     margin: 15px auto;
     padding: 0px;
     width:60%;
-    /* border: 3px dashed orchid; */
     text-align: center;
 }
 
 .listItemsService{
-    /* width: 90%; */
-    /* margin: 0px auto; */
     padding: 0px;
-    /* border: 3px dashed green; */
 }
 
 
 .itemsServRow{
     width: 95%;
-    /* border: 3px solid black; */
 
     margin: 5px auto;
     padding: 0px;
     display: flex;
-    /* flex-grow: 1; */
     justify-content: space-between;
 }
 
@@ -242,7 +214,6 @@ html{
     height: 300px;
     margin-bottom: 5em;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-    /* display: inline-block; */
 
 
     
@@ -250,7 +221,6 @@ html{
 
 .itemServ:nth-child(2){
     border-color: red;
-    /* flex-grow: 2; */
 }
 
 
@@ -260,7 +230,6 @@ html{
     padding-top: 2em;
     padding-bottom: .5em;
     font-weight: normal;
-    /* display: inline-block; */
     color: rgba(0,0,0,0.8);
 
     text-transform: uppercase;
@@ -270,7 +239,6 @@ html{
     width: 60px;
     border-radius: 100%; 
     background-color: white;
-    /* text-align: center; */
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
     margin: 0px auto;
     margin-top: -35px;
@@ -301,22 +269,14 @@ html{
     background-position: center;
     background-size: cover;
     padding:1%;
-    /* z-index: 100000; */
-    /* width: 100%; */
-    /* text-align: center; */
-    /* border: 10px dashed black; */
-    /* background: linear-gradient(to left,rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)),url(./WebsiteFileTest/Media/service-bg.jpg); */
 }
 .ContChoiceTitle{
     width: 90%;
-    /* border: 1px solid black; */
     margin: 0px;
 }
 
 .ContChoiceTitle h2{
     font-size: 45px;
-    /* border: 1px solid black; */
-    /* font-weight:; */
     font-weight: bold;
     color: white;
     text-transform: uppercase;
@@ -339,7 +299,6 @@ html{
     margin: 15px auto;
     padding: 0px;
     width:60%;
-    /* border: 3px dashed orchid; */
     text-align: center;
 }
 .ContChoiceTitle{
@@ -354,12 +313,9 @@ html{
     margin: 2.5% auto;
     margin-bottom: 1.5%;
     text-align: center;
-    /* border: 2px dashed black; */
     display: flex;
-    /* flex: 1 1 450px; */
     justify-content: space-between;
     padding: 0px ;
-    /* justify-items: center; */
     align-items: center;
     
 
@@ -368,7 +324,6 @@ html{
 
 .ChoiceItem{
     width: 400px;
-    /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4); */
     border: 1px solid rgba(0, 0, 0, 0.4);
     border-radius: 5px;
 
@@ -380,7 +335,6 @@ html{
     padding-top: 1em;
     padding-bottom: .5em;
     font-weight: normal;
-    /* display: inline-block; */
     color: rgba(0,0,0,0.8);
 
     text-transform: uppercase;
@@ -402,34 +356,15 @@ html{
 .ChoiceItem i{
     color: white;
 }
-/* .ContChoiceTitle{
-    
-} */
-/* @media screen and (max-width: 800px){
-    *{color:rgba(0,0,0,0.5);}
-
-    .main_container::before{
-        content: "Bonjour tout le monde la taille de l'ecran est à 800px";
-        font-size: 50px;
-        color :black;
-        position: absolute;
-    }
-} */
 
 
 /* ------------------------------------------------------------------------------- */
 
-.numberSection{
-    /* border: 5px solid orange; */
-
-
-}
 
 
 .numberSectionContainer{
     margin: 2rem auto;
     width: 90%;
-    /* border: 2px dashed red; */
     display: flex;
     justify-content: center;
 }
@@ -439,7 +374,6 @@ html{
     border-right: 1px solid rgba(128, 128, 128,0.3);
     text-align: center;
     text-transform: uppercase;
-    /* font-weight: normal; */
 }
 
 .NcolSec:last-child{
@@ -460,20 +394,16 @@ html{
 
 /* -------------------------------------------------------------------------------------------------------------- */
 .sectionPackage{
-    /* border: 1px solid black; */
     text-align: center;
 }
 
 .sectionPackageContainer{
-    /* border: 2px dashed orange; */
     width: 70%;
     margin: 1.5rem auto;
 }
 
 .titleSection{
     font-size: 45px;
-    /* border: 1px solid black; */
-    /* font-weight:; */
     font-weight: bold;
     color: rgba(0, 0, 0, 0.8);
     text-transform: uppercase;
@@ -482,13 +412,12 @@ html{
 }
 
 .descrTitleSection{
-    /* border: 1px dashed black; */
+
     color: grey;
     text-transform: capitalize;
     margin: 15px auto;
     padding: 0px;
     width: 60%;
-    /* border: 3px dashed orchid; */
     text-align: center;
 }
 
@@ -502,7 +431,6 @@ html{
 }
 
 .viewportPackage{
-    /* border: 1px dashed black; */
     height: 30rem;
     margin: 3rem auto;
 }
@@ -510,7 +438,6 @@ html{
 .screenPackage {
     width: 100%;
     height: 100%;
-    /* border: 2px dashed orange; */
     padding: 0px;
     display: flex;
     flex-direction: row;
@@ -523,8 +450,7 @@ html{
     height: 100%;
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid black; */
-    /* transform: translateX(-200%); */
+
 }
 
 .second{
@@ -532,14 +458,7 @@ html{
 }
 .vwitems{
     width:648px;
-    /* height: 100%; */
-    /* border: 1px dashed red; */
     padding: 0px;
-    /* z-index: -1; */
-
-    /* background-position: center;
-    background-size:contain; */
-    /* transform: translate(-92rem); */
 }
 
 .vwitems img{
@@ -551,8 +470,6 @@ html{
 .descr_package{
     width: 100.3%;
     height: 60%;
-    /* border: 3px solid var(--main-theme); */
-    /* margin-left: 0; */
     background-color: var(--main-theme);
     margin: 0px auto;
     transform: translateY(-4.5rem);
@@ -570,7 +487,6 @@ html{
     font-size: 1.5rem;
     font-weight: normal;
     padding:1rem  1.5rem;
-    /* border: 1px dashed white; */
     color: whitesmoke;
 }
 
@@ -607,16 +523,11 @@ html{
 
 /* --------------------------------------------------------------- */
 .switchPackage{
-    
-    /* width: var(--siZebutton);
-    height: var(--siZebutton); */
-    /* border: 1px solid black; */
+
     margin: 2px .75rem;
     padding: .4rem;
     border-radius: 100%;
     background-color: rgba(255, 68, 0, 0.3);
-    /* flex-wrap: nowrap; */
-    /* display: inline-block; */
     
     
 }
@@ -631,7 +542,6 @@ html{
 }
 
 .buttonswitch{
-    /* border: 1px dashed black; */
     width: 10%;
     display: flex;
     justify-content: center;
@@ -642,27 +552,20 @@ html{
 
 /* --------------------------------------------------------------- */
 .tops_deals{
-    /* border: 1px dashed black; */
 
-margin: 10rem 0px;
-
-
-    /* dimensionnement de la section */
+    margin: 10rem 0px;
 
     width: 100%;
-    /* height: 600px; */
 }
 
 .tops_deals>p{
     width: 100%;
-    /* border: 1px solid black; */
     text-align: center;
 
     margin: 1rem auto;
 }
 
 .containerItemsDeals{
-    /* border: 2px dashed rgba(255, 68, 0, 0.747); */
 
     display: flex;
     flex-wrap: wrap;
@@ -672,7 +575,6 @@ margin: 10rem 0px;
 
 .itemTopDeals{
 
-    /* border: 1px dashed rgb(26, 25, 25); */
     width: 33.3%;
     flex-grow: 1;
     overflow: hidden;
@@ -681,9 +583,7 @@ margin: 10rem 0px;
 
 }
  .grid figure{
-    /* border: 1px solid black; */
     overflow: hidden;
-
     position: relative;
 }
 
@@ -695,7 +595,6 @@ margin: 10rem 0px;
 }
 
 .grid figcaption{
-    /* border: 1px solid red; */
     padding: 20px;
     color: black;
     text-transform: uppercase;
@@ -739,15 +638,10 @@ margin: 10rem 0px;
     left: 0px;
     right: 0px;
 
-    /* width: 80; */
-
 
 
     background-color: white;
 
-
-
-    /* z-index: 100; */
 }
 
 
@@ -755,12 +649,10 @@ margin: 10rem 0px;
     width: 100%;
 
     padding:20px;
-    /* height: 100; */
     position: absolute;
     bottom: 0;
     left: 0px;
 
-    /* z-index: 11000; */
 }
 
 
